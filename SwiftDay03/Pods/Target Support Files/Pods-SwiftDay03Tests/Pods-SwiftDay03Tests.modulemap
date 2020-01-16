@@ -1,0 +1,6 @@
+framework module Pods_SwiftDay03Tests {
+  umbrella header "Pods-SwiftDay03Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

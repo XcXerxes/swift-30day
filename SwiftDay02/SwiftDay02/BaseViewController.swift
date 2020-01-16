@@ -16,7 +16,7 @@ class BaseViewController: UIViewController {
         // 设置导航栏返回按钮和字体的颜色
         navigationController?.navigationBar.tintColor = Specs.color.white
         // 设置导航栏的标题字体大小 和 字体颜色
-        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: Specs.color.white, NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: Specs.fontSize.xLarge)]
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: Specs.color.white, NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: Specs.fontSize.mLarge)]
         // 设置view 的背景颜色
         view.backgroundColor = Specs.color.white
     }
