@@ -1,0 +1,6 @@
+framework module Pods_Swift_Day04Tests {
+  umbrella header "Pods-Swift-Day04Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
